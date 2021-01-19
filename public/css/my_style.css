@@ -1,0 +1,178 @@
+.row-full {
+  position: relative;
+
+}
+
+.row-full .content { /*center text overlay on image*/
+    font-family: 'Overlock', cursive;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background:rgba(255, 255, 255, .5); /* Black background with 0.5 opacity */
+    color: #151515; /* Grey text */
+    padding: 20px; /* Some padding */
+    text-align:center;
+}
+
+/*loading animation and overlay height*/
+#row1{
+    animation: load_name 1s; 
+    height:25%; /* 25% width background photo */
+    width: 50%; /* half width of background photo */
+
+}
+
+
+/* scale overlay from center because it looks ~cool~ */
+@keyframes load_name{
+    from {
+        transform: scale(0);
+      }
+    to {
+        transform: scale(1);
+      }
+ }
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+.nav {
+    font-family: 'Overlock', cursive;
+    position: sticky;
+    width: 100%;
+    padding: 0px;
+    top: 0px;
+    list-style-type: none;
+    background-color: rgba(255,255,255,1);/* Black background with 0.5 opacity */
+    z-index: 3;
+    float:center;
+
+}
+
+li {
+    float:center;
+}
+
+.buttons{
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    flex-direction: row;
+    list-style-type: none;
+
+}
+
+#socials{
+    display:flex;
+    float:center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.fa-instagram{
+    font-size: 200%;
+    text-align: center;
+    color:#333;
+
+}
+#instagram{
+    margin-left:2%;
+    margin-right:2%;
+}
+.fa-linkedin-in{
+    font-size: 200%;
+    text-align: center;
+    color:#333;
+
+}
+
+.fa-github{
+    font-size: 200%;
+    text-align: center;
+    color:#333;
+}
+
+#github{
+    margin-top:auto;
+    margin-bottom:auto;
+
+}
+
+ header {  
+    /* This section calls the slideInFromLeft animation we defined above */
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+    
+    background: #333;
+    padding: 30px;
+  }
+  
+
+
+.nav-a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: r;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding: 20px;
+    color: #151515;
+    background-color: rgba(255, 255, 255, 0.0);/* Black background with 0.0 opacity */
+    transition: 0.3s;
+    top: 0px;
+}
+
+.nav-a:hover {
+    background-color: rgba(255, 255, 255, 0.9);/* Black background with 0.9 opacity */
+    transition: 0.2s;
+}
+
+.row-full-2 {
+    font-family: 'Overlock', cursive;
+    margin: 5%;
+}
+
+.row-full-3{
+    margin-top: 5%;
+    font-family: 'Overlock', cursive;
+    
+}
+
+.main-carousel{
+    height:100%;
+}
+.main-carousel .carousel-cell{
+    margin-right:10%;
+}
+
+.logo{
+    background-color: rgba(0, 0, 0, .5);
+    height: 268px;
+    width: 100%;
+}
+
+.logo .logo-content{
+    font-family: 'Overlock', cursive;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background:rgba(196, 221, 255, .5); /* Black background with 0.5 opacity */
+    color: #151515; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */
+}
+
+.card{
+    font-size: 100%;
+}
+
+.row-full-4{
+    font-family: 'Overlock', cursive;
+    margin-top: 5%;
+}
+
+
+
