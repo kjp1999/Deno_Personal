@@ -1,31 +1,43 @@
+<!-- 
+  God I hate ejs. How does it even work... 
+  If you're trying to hire me ignore this please. I totaly fully understand ejs... haha... 
+-->
 <%- await include('views/shared/header.html', { title }); %>
 
+  <!-- photo and page title -->
   <div class="row-full">
     <img src="../img/IMG_20210111_155037.jpg" alt="Cover" style="width:100%;">
     <div class="content" id="row1">
       <h1 style="text-align: center;">-KALEB PARK-</h1>
       <h5 style="text-align: center;">|Computer Scientist|</h5>
+
+      <!-- Linkedin, github, instagram social links with icons -->
       <div class="container" id="socials">
         <a href="https://github.com/kjp1999/" target="_blank" id="github"><i class="fab fa-github"></i></a>
         <a href="https://github.com/kjp1999/" target="_blank" id="instagram"><i class="fab fa-instagram"></i></i></a>
         <a href="https://github.com/kjp1999/" target="_blank" id="linkedin"><i class="fab fa-linkedin-in"></i></i></a>
       </div>
     </div>
-
   </div>
 
+  <!-- About me section talking about myself like the narcissist I am -->
   <div class="row-full-2">
     <div class="content">
       <div class="container">
         <h3 style="text-align: center;">About Me</h3>
-        <p style="text-align: center;">I am computer science student at the University of Colorado Boulder. 
-          I've been programming since I was 9 and have been learning about computer science since then. I spent much of highschool working for NASA and was on a FIRST Robotics team. 
+        <p style="text-align: center;">I am computer science student at the University of Colorado Boulder.
+          I've been programming since I was 9 and have been learning about computer science since then. I spent much of
+          highschool working for NASA and was on a FIRST Robotics team.
           I study computer science because I like creating new things and solving challenging problems. Although I
-          am a busy student I still make time for my hobbies which include skateboarding, snowboarding, guitar, and of course programing.
+          am a busy student I still make time for my hobbies which include skateboarding, snowboarding, guitar, and of
+          course programing.
         </p>
       </div>
     </div>
   </div>
+
+
+  <!-- Fancy little carousel with cards and images listing some of my programming skills. -->
   <div class="row-full-3">
     <h3 style="text-align: center;">Skills</h3>
     <div class="main-carousel">
@@ -63,12 +75,13 @@
           </div>
         </div>
       </div>
-
     </div>
+
+
+    <!-- how to contact me: email, phone, etc -->
     <div class="row-full-4">
       <h3 style="text-align: center;">Contact</h3>
       <div class="container">
-
       </div>
     </div>
 
